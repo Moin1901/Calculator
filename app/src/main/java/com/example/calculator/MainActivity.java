@@ -228,7 +228,7 @@ public class MainActivity extends AppCompatActivity {
                    finalResult=rhino.evaluateString(scriptable,data,"javascript",1,null).toString();
                }catch (Exception e)
                {
-                   finalResult="Chala ja bsdk";
+                   finalResult="ERROR";
                }
                outPuttxt.setText(finalResult);
 
